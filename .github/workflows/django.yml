@@ -28,5 +28,4 @@ jobs:
     - name: Run Tests
       run: |
         cd martor_demo/
-        ls -al
-        
+        python hello.py
