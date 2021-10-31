@@ -28,4 +28,5 @@ jobs:
     - name: Run Tests
       run: |
         cd martor_demo/
-        python manage.py test
+        ls -al
+        
