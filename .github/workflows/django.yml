@@ -74,4 +74,4 @@ jobs:
     - name: blah
       run: |
         mkdir -p .pip_cache
-	docker build -t django-markdown-editor .
+        docker build -t django-markdown-editor .
