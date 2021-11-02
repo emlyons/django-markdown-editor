@@ -76,3 +76,4 @@ jobs:
         mkdir -p .pip_cache
         docker build -t django-markdown-editor .
         docker push emlyons/django-markdown-editor:latest
+	
