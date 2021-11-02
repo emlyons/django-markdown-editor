@@ -40,8 +40,8 @@ jobs:
         pip install flake8
         flake8 martor_demo/ --max-line-length=127
 
-Dockerize:
-
+  Dockerize:
+  
     runs-on: ubuntu-latest
     strategy:
       max-parallel: 4
