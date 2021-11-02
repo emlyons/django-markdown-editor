@@ -60,6 +60,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Build Docker Image
-      run: |
-        mkdir -p .pip_cache
-        docker 
+      runs:
+        using: 'docker'
+        image: 'Dockerfile'
