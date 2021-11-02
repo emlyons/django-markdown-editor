@@ -31,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: UnitTest
-        run: |
+      run: |
         cd martor_demo/
         python manage.py makemigrations
         python manage.py migrate
